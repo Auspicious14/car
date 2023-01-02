@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal;
+}
+
+.car {
+    width: 50%;
+    height: 10rem;
+    border: 2px solid black;
+   transform: translate(50%,  25%);
+   border-bottom: none;
+   position: relative;
+}
+
+.car-part {
+    width: 25%;
+ border: 2px solid black;
+ position: absolute;
+
+}
+.front {
+  height: 5px;
+ top: 9.7rem;
+ right: -10.7rem;
+}
+
+.back {
+    /* width: 20rem; */
+    height: 5px;
+    top: 9.7rem;
+    left: -10.7rem;
+}
+
+.straight {
+    width: 5px;     
+    height: 15rem;
+    border: 1px solid black;
+    right: -10.7rem;
+    top: 10rem;
+}
+.straight2 {
+    width: 5px;     
+    height: 15rem;
+    border: 1px solid black;
+    left: -10.7rem;
+    top: 10rem;
+    border-bottom: none;
+}
+.bottom {
+    width: 15rem;     
+    height: 5px;
+    border: 1px solid black;
+    left: -10.7rem;
+    top: 25rem;
+    border-left: none;
+}
+.bottom2 {
+    width: 15rem;     
+    height: 5px;
+    border: 1px solid black;
+    right: -10.7rem;
+    top: 25rem;
+    border-left: none;
+}
+
+.tyre {
+    width: 8rem;
+    height: 8rem;
+    padding: 5px;
+    border-radius: 5rem;
+    border: 1px solid black;
+    left: 4rem;
+    top: 21rem;
+}
+
+.inner-tyre {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 5rem;
+    border: 1px solid black;
+ 
+}
